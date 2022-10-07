@@ -18,7 +18,7 @@
 
     },
     "5000": {
-      "label": "Svelte App"
+      "label": "React App"
     }
   },
 
@@ -40,8 +40,8 @@
   ],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "(cd svelte-app && npm install) ; (cd api && npm install)",
-  "postStartCommand": "(cd svelte-app && npm run dev) & (cd svelte-app && npm run local)",
+  "postCreateCommand": "(cd react-app && npm install) ; (cd api && npm install)",
+  "postStartCommand": "(cd react-app && npm run dev) & (cd react-app && npm run local)",
 
   // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
